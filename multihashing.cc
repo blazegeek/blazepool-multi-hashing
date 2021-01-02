@@ -2,7 +2,6 @@
 #include <node_buffer.h>
 #include <v8.h>
 #include <stdint.h>
-#include <nan.h>
 
 extern "C" {
     #include "allium.h"
