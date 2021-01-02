@@ -14,6 +14,7 @@
                 "cryptonight_fast.c",
                 "fresh.c",
                 "fugue.c",
+                "geek.c",
                 "gost.c",
                 "groestl.c",
                 "hefty1.c",
