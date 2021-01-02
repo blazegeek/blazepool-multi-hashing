@@ -1,6 +1,6 @@
 {
-    "name": "multi-hashing",
-    "version": "0.0.9",
+    "name": "blazepool-multi-hashing",
+    "version": "1.0.0",
     "main": "multihashing",
     "author": {
         "name": "Matthew Little",
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zone117x/node-multi-hashing.git"
+        "url": "https://github.com/blazegeek/blazepool-multi-hashing.git"
     },
     "dependencies": {
         "bindings": "^1.3.0",
