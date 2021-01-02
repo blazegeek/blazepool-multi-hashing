@@ -2,6 +2,7 @@
 #include <node_buffer.h>
 #include <v8.h>
 #include <stdint.h>
+#include <nan.h>
 
 extern "C" {
     #include "allium.h"
@@ -13,6 +14,7 @@ extern "C" {
     #include "cryptonight_fast.h"
     #include "fresh.h"
     #include "fugue.h"
+    #include "geek.h"
     #include "gost.h"
     #include "groestl.h"
     #include "hefty1.h"
@@ -57,6 +59,7 @@ extern "C" {
 
 using namespace node;
 using namespace v8;
+using namespace nan;
 
 #if NODE_MAJOR_VERSION >= 4
 
@@ -201,6 +204,7 @@ using namespace v8;
  DECLARE_CALLBACK(c11, c11_hash, 32);
  DECLARE_CALLBACK(fresh, fresh_hash, 32);
  DECLARE_CALLBACK(fugue, fugue_hash, 32);
+ DECLARE_CALLBACK(geek, geek_hash, 32);
  DECLARE_CALLBACK(gost, gost_hash, 32);
  DECLARE_CALLBACK(groestl, groestl_hash, 32);
  DECLARE_CALLBACK(groestlmyriad, groestlmyriad_hash, 32);
@@ -600,6 +604,7 @@ DECLARE_INIT(init) {
     NODE_SET_METHOD(exports, "cryptonightfast", cryptonightfast);
     NODE_SET_METHOD(exports, "fresh", fresh);
     NODE_SET_METHOD(exports, "fugue", fugue);
+    NODE_SET_METHOD(exports, "geek", geek);
     NODE_SET_METHOD(exports, "gost", gost);
     NODE_SET_METHOD(exports, "groestl", groestl);
     NODE_SET_METHOD(exports, "groestlmyriad", groestlmyriad);
@@ -642,4 +647,3 @@ DECLARE_INIT(init) {
 }
 
 NODE_MODULE(multihashing, init)
-
