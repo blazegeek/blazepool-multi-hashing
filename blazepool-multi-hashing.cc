@@ -645,4 +645,4 @@ DECLARE_INIT(init) {
     NODE_SET_METHOD(exports, "yescrypt", yescrypt);
 }
 
-NODE_MODULE(blazepool-multi-hashing, init)
+NODE_MODULE(blazepool_multi_hashing, init)
