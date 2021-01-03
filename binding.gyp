@@ -1,9 +1,9 @@
 {
     "targets": [
         {
-            "target_name": "blazepool-multi-hashing",
+            "target_name": "blazepoolmultihashing",
             "sources": [
-                "blazepool-multi-hashing.cc",
+                "blazepoolmultihashing.cc",
                 "allium.c",
                 "bcrypt.c",
                 "blake.c",
@@ -80,12 +80,6 @@
                 "sha3/sph_sha2.c",
                 "sha3/sph_sha2big.c",
                 "sha3/sph_tiger.c",
-                "sph/sph_cubehash.h", 
-                "sph/sph_echo.h",
-                "sph/sph_fungue.h",
-                "sph/sph_gost.h",
-                "sph/sph_jh.h",
-                "sph/sph_skein.h",
                 "yescrypt/sha256_Y.c",
                 "yescrypt/yescrypt-best.c",
                 "yescrypt/yescryptcommon.c",
