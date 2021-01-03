@@ -5,7 +5,7 @@
     node-gyp configure
     node-gyp build --debug
 */
-var mh = require('./build/Debug/blazepool-multi-hashing.node');
+var mh = require('./build/Debug/blazepoolmultihashing.node');
 var crypto = require('crypto');
 
 // this needs more work... I need a something to pass into these hashers and get back and assert..
@@ -137,5 +137,3 @@ function range(start, stop, step){
     }
     return result;
 };
-
-
