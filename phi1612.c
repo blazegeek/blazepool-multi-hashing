@@ -7,12 +7,12 @@
 
 // Hashing modules
 
-#include "sph/sph_skein.h"
-#include "sph/sph_jh.h"
-#include "sph/sph_cubehash.h"
-#include "sph/sph_fugue.h"
-#include "sph/sph_gost.h"
-#include "sph/sph_echo.h"
+#include "sha3/sph_skein.h"
+#include "sha3/sph_jh.h"
+#include "sha3/sph_cubehash.h"
+#include "sha3/sph_fugue.h"
+#include "sha3/sph_gost.h"
+#include "sha3/sph_echo.h"
 
 
 void phi1612_hash(const char* input, char* output)
