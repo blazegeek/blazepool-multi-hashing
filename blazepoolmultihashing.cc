@@ -58,7 +58,6 @@ extern "C" {
 
 using namespace node;
 using namespace v8;
-using namespace nan;
 
 #if NODE_MAJOR_VERSION >= 4
 
