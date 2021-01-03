@@ -1,5 +1,5 @@
 const Buffer = require('safe-buffer').Buffer
-const multiHashing = require('../build/Release/blazepool-multi-hashing')
+const multiHashing = require('../build/Release/blazepoolmultihashing')
 const assert = require('assert')
 
 var tests = [
