@@ -1,7 +1,7 @@
 {
     "name": "blazepool-multi-hashing",
     "version": "1.0.0",
-    "main": "multihashing",
+    "main": "blazepool-multi-hashing",
     "author": {
         "name": "Matthew Little",
         "email": "zone117x@gmail.com"
