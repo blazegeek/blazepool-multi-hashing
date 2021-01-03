@@ -1,9 +1,9 @@
 {
     "targets": [
         {
-            "target_name": "multihashing",
+            "target_name": "blazepool-multi-hashing",
             "sources": [
-                "multihashing.cc",
+                "blazepool-multi-hashing.cc",
                 "allium.c",
                 "bcrypt.c",
                 "blake.c",
