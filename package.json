@@ -11,9 +11,9 @@
         "url": "https://github.com/blazegeek/blazepool-multi-hashing.git"
     },
     "dependencies": {
-        "bindings": "^1.3.0",
+        "bindings": "^1.5.0",
         "nan": "^2.6.2",
-        "node-gyp": ">=7.1.0"
+        "node-gyp": "*"
     },
     "keywords": [
         "scrypt",
