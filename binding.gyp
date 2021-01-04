@@ -95,7 +95,7 @@
                 "crypto/wild_keccak.cpp"
             ],
             "conditions": [
-                ["OS=="linux"",
+                ["OS=='linux'",
                   {
                     "link_settings": {
                       "libraries": [
@@ -104,7 +104,7 @@
                     }
                   }
                 ],
-                ["OS=="mac"",
+                ["OS=='mac'",
                   {
                     "link_settings": {
                       "libraries": [
@@ -113,7 +113,7 @@
                     }
                   }
                 ],
-                ["OS=="win"",
+                ["OS=='win'",
                   {
                     "link_settings": {
                       "libraries": [
