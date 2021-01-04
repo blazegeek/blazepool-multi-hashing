@@ -94,30 +94,30 @@
                 "crypto/odocrypt.cpp",
                 "crypto/wild_keccak.cpp"
             ],
-            'conditions': [
-                ['OS=="linux"',
+            "conditions": [
+                ["OS=="linux"",
                   {
-                    'link_settings': {
-                      'libraries': [
-                        '-lgmp'
+                    "link_settings": {
+                      "libraries": [
+                        "-lgmp"
                       ]
                     }
                   }
                 ],
-                ['OS=="mac"',
+                ["OS=="mac"",
                   {
-                    'link_settings': {
-                      'libraries': [
-                        '-lgmp'
+                    "link_settings": {
+                      "libraries": [
+                        "-lgmp"
                       ]
                     }
                   }
                 ],
-                ['OS=="win"',
+                ["OS=="win"",
                   {
-                    'link_settings': {
-                      'libraries': [
-                        '-lgmp.lib'
+                    "link_settings": {
+                      "libraries": [
+                        "-lgmp.lib"
                       ],
                     }
                   }

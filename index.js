@@ -1,1 +1,1 @@
-module.exports = require('bindings')('blazepoolmultihashing.node')
+module.exports = require('bindings')('blazepoolmultihashing.node');
