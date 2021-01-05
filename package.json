@@ -1,33 +1,33 @@
 {
-    "name": "blazepool-multi-hashing",
-    "version": "1.0.0",
-    "main": "blazepoolmultihashing",
-    "author": {
-        "name": "Matthew Little",
-        "email": "zone117x@gmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/blazegeek/blazepool-multi-hashing.git"
-    },
-    "dependencies": {
-        "bindings": "^1.5.0",
-        "nan": "^2.14.2",
-        "node-gyp": "*"
-    },
-    "keywords": [
-        "scrypt",
-        "scryptjane",
-        "script-n",
-        "x11",
-        "quark",
-        "keccak_hash",
-        "skein",
-        "bcrypt",
-        "keccak",
-        "blake",
-        "shavite",
-        "fugue",
-        "sha1"
-    ]
+	"name": "blazepool-multi-hashing",
+	"version": "1.0.0",
+	"main": "blazepoolmultihashing",
+	"author": {
+		"name": "Matthew Little",
+		"email": "zone117x@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/blazegeek/blazepool-multi-hashing.git"
+	},
+	"dependencies": {
+		"bindings": "^1.5.0",
+		"nan": "^2.14.2",
+		"node-gyp": "*"
+	},
+	"keywords": [
+		"scrypt",
+		"scryptjane",
+		"script-n",
+		"x11",
+		"quark",
+		"keccak_hash",
+		"skein",
+		"bcrypt",
+		"keccak",
+		"blake",
+		"shavite",
+		"fugue",
+		"sha1"
+	]
 }
